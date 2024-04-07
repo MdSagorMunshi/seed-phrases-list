@@ -25,34 +25,7 @@ This repository contains a large dataset of seed phrases, distributed across thr
 * **Format:** Plain text files (.txt) with the structure: [ACCOUNT <NO>]: SEED PHRASE: (seed phrase here)
 * **Source:** Generated using Python code with a focus on BIP39 compatibility for security research. 
 
-
-
-### **Potential Use Cases**
-
-* **Security Research:** Analyze seed phrase patterns and vulnerabilities.
-* **Educational Demonstrations:**  Illustrate the critical importance of seed phrase security. 
-* **NOT RECOMMENDED:** Direct use in cryptocurrency wallets. 
-
-### **How to Download**
-
-**Option 1: Hugging Face Hub Interface**
-
-1. Navigate to the file you want to download on the Hugging Face dataset.
-2. Click the "Download" button.
-3. Choose a download location on your computer.
-
-**Option 2: Cloning the Hugging Face Repository (using Git LFS)**
-
-1. Ensure you have Git Large File Storage (Git LFS) installed: https://git-lfs.github.com/
-2. Run the following command in your terminal, replacing the placeholder with the Hugging Face repository link: 
-   ```bash
-   git clone --branch master --single-branch https://huggingface.co/LAYEK-143/seed-phrases-list.git
-   cd seed-phrases-list
-   git lfs fetch
-   git pull origin master
-
-   ```
-## **Code**
+**Code**
 <details>
   <summary>Show Code</summary>
 
@@ -92,6 +65,31 @@ if __name__ == "__main__":
   ```
 </details>
 
+### **Potential Use Cases**
+
+* **Security Research:** Analyze seed phrase patterns and vulnerabilities.
+* **Educational Demonstrations:**  Illustrate the critical importance of seed phrase security. 
+* **NOT RECOMMENDED:** Direct use in cryptocurrency wallets. 
+
+### **How to Download**
+
+**Option 1: Hugging Face Hub Interface**
+
+1. Navigate to the file you want to download on the Hugging Face dataset.
+2. Click the "Download" button.
+3. Choose a download location on your computer.
+
+**Option 2: Cloning the Hugging Face Repository (using Git LFS)**
+
+1. Ensure you have Git Large File Storage (Git LFS) installed: https://git-lfs.github.com/
+2. Run the following command in your terminal, replacing the placeholder with the Hugging Face repository link: 
+   ```bash
+   git clone --branch master --single-branch https://huggingface.co/LAYEK-143/seed-phrases-list.git
+   cd seed-phrases-list
+   git lfs fetch
+   git pull origin master
+
+   ```
 
 ### **Disclaimer**
 
