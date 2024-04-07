@@ -18,9 +18,8 @@ This repository contains a large dataset of seed phrases, distributed across thr
     * File 1: 999,999 seed phrases
     * File 2: 1,000,000 seed phrases
     * File 3: 7,000,000 seed phrases
-    * File 4: 20,000,000 seed phrase (**Coming Down the Pike**)
+    * File 4: 10,000,000 seed phrase
     * File 5: 50,000,000 seed phrase (**Coming Down the Pike**)
-    * File 6: 50,000,000 seed phrase (**Coming Down the Pike**)
     * File 4: 69,000,000 seed phrase (**Coming Down the Pike**)
 * **Format:** Plain text files (.txt) with the structure: [ACCOUNT <NO>]: SEED PHRASE: (seed phrase here)
 * **Source:** Generated using Python code with a focus on BIP39 compatibility for security research. 
