@@ -13,7 +13,7 @@ This repository contains a large dataset of seed phrases, distributed across thr
 
 ### **About the Dataset**
 
-* **Total Size:** Approximately 9 million seed phrases.
+* **Total Size:** Approximately 20 million seed phrases.
 * **Distribution:**
     * File 1: 999,999 seed phrases
     * File 2: 1,000,000 seed phrases
